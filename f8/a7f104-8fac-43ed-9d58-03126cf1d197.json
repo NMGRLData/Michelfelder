@@ -1,0 +1,176 @@
+{
+    "acquisition_software": "pychron 20.1.1",
+    "aliquot": 1,
+    "analysis_type": "unknown",
+    "analyst_name": "MHeizler",
+    "arar_mapping": {
+        "Ar36": "Ar36",
+        "Ar37": "Ar37",
+        "Ar38": "Ar38",
+        "Ar39": "Ar39",
+        "Ar40": "Ar40"
+    },
+    "collection_version": "1.0:2.1",
+    "comment": "F:1 Biotite - 5.1mg",
+    "conditionals": [
+        {
+            "analysis_types": [],
+            "frequency": 10,
+            "hash_id": 2849356714622341303,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 1,
+            "start_count": 5,
+            "teststr": "L2(CDD).deflection==3250"
+        }
+    ],
+    "data_collection_commit": "d99bcdd272cbd56b461b9765f96f6030a55ceeae",
+    "data_reduction_software": "pychron 20.1.1",
+    "detectors": {
+        "AX": {
+            "deflection": 0.0,
+            "gain": 0.01185
+        },
+        "H1": {
+            "deflection": 0.0,
+            "gain": 0.10539
+        },
+        "H2": {
+            "deflection": 0.0,
+            "gain": 1.0
+        },
+        "L1": {
+            "deflection": 0.0,
+            "gain": 0.10753
+        },
+        "L2(CDD)": {
+            "deflection": 0.0,
+            "gain": 0.0
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Hum.",
+                "pub_date": "2023-02-14T17:06:33",
+                "title": "iServer Hum.",
+                "value": 16.9
+            }
+        ],
+        "lab_pneumatics": [
+            {
+                "device": "MicroBoneGaugeController",
+                "name": "JanDecabinPressure",
+                "pub_date": "2023-02-14T17:59:06",
+                "title": "Jan Decabin",
+                "value": 6.9
+            }
+        ],
+        "lab_temperatures": [
+            {
+                "device": "Coldfinger",
+                "name": "ColdFinger Temp.",
+                "pub_date": "2023-02-14T18:18:56",
+                "title": "Cold Finger",
+                "value": 4.0
+            },
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Temp.",
+                "pub_date": "2023-02-14T17:54:49",
+                "title": "iServer Temp.",
+                "value": 70.3
+            },
+            {
+                "device": "Chiller",
+                "name": "Coolant Temp.",
+                "pub_date": "2023-02-14T18:09:00",
+                "title": "Coolant",
+                "value": 15.9
+            },
+            {
+                "device": "JanMonitor",
+                "name": "JanDecabinTemp",
+                "pub_date": "2023-02-14T15:48:23",
+                "title": null,
+                "value": 35.3553113553114
+            }
+        ]
+    },
+    "experiment_queue_name": "CurrentExperiment",
+    "experiment_type": "Ar/Ar",
+    "extraction": "felix_diode.py",
+    "grainsize": "",
+    "hops": "",
+    "identifier": "70725",
+    "increment": 6,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "NM-330",
+    "irradiation_level": "F",
+    "irradiation_position": 1,
+    "isotopes": {
+        "Ar36": {
+            "detector": "L2(CDD)",
+            "name": "Ar36",
+            "serial_id": "00000",
+            "units": "fA"
+        },
+        "Ar37": {
+            "detector": "L1",
+            "name": "Ar37",
+            "serial_id": "00000",
+            "units": "fA"
+        },
+        "Ar38": {
+            "detector": "AX",
+            "name": "Ar38",
+            "serial_id": "00000",
+            "units": "fA"
+        },
+        "Ar39": {
+            "detector": "H1",
+            "name": "Ar39",
+            "serial_id": "00000",
+            "units": "fA"
+        },
+        "Ar40": {
+            "detector": "H2",
+            "name": "Ar40",
+            "serial_id": "00000",
+            "units": "fA"
+        }
+    },
+    "laboratory": "",
+    "latitude": null,
+    "lithology": "",
+    "lithology_class": null,
+    "lithology_group": null,
+    "lithology_type": null,
+    "longitude": null,
+    "mass_spectrometer": "Felix",
+    "material": "Biotite",
+    "measurement": "felix_analysis340_60_CDD_center.py",
+    "meta_commit": "1e6e222a1689054dafa4446668440dedc3c7629e",
+    "note": null,
+    "post_equilibration": "felix_pump_extraction_line.py",
+    "post_measurement": "felix_pump_ms.py",
+    "principal_investigator": "Michelfelder, G",
+    "project": "Michelfelder",
+    "queue_conditionals_name": "",
+    "repository_identifier": "Michelfelder",
+    "rlocation": "",
+    "sample": "OLL22-01",
+    "source": {
+        "emission": 792.31,
+        "trap": 202.958
+    },
+    "spec_sha": "077cf68750ec3cf88827aa9dd1e4a24bce497167",
+    "timestamp": "2023-02-14T18:19:15.149272",
+    "tripped_conditional": null,
+    "unit": "",
+    "username": "MHeizler",
+    "uuid": "f8a7f104-8fac-43ed-9d58-03126cf1d197",
+    "whiff_result": null
+}
