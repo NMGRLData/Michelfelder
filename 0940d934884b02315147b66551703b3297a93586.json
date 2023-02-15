@@ -1,0 +1,70 @@
+{
+    "deflections": {
+        "AX": 0.0,
+        "AX(CDD)": 0.0,
+        "H1": 0.0,
+        "H1(CDD)": 0.0,
+        "H2": 0.0,
+        "H2(CDD)": 0.0,
+        "L1": 0.0,
+        "L1(CDD)": 0.0,
+        "L2": 0.0,
+        "L2(CDD)": 0.0
+    },
+    "gains": {
+        "AX": 0.01185,
+        "AX(CDD)": 0.0,
+        "H1": 0.10539,
+        "H1(CDD)": 0.0,
+        "H2": 1.0,
+        "H2(CDD)": 0.0,
+        "L1": 0.10753,
+        "L1(CDD)": 0.0,
+        "L2": 1.0,
+        "L2(CDD)": 0.0
+    },
+    "settings": {
+        "deflection": {},
+        "magnet": {
+            "mftable": "argon"
+        },
+        "source": {
+            "electron_energy": 117.17,
+            "extraction_focus": 0.0,
+            "extraction_lens": 42.34,
+            "extraction_symmetry": 0.02,
+            "flatapole": -3.0,
+            "hv": 9900.0,
+            "ion_repeller": -6.39,
+            "rotation_quad": 6.0,
+            "vertical_deflection_n": 71.0,
+            "vertical_deflection_s": 41.0,
+            "y_symmetry": 36.21
+        },
+        "trap": {
+            "current": 205.0,
+            "ramp_period": 1.0,
+            "ramp_step": 2.0,
+            "ramp_tolerance": 25.0,
+            "voltage": 43.37
+        }
+    },
+    "spectrometer": {
+        "DAC_0_0_(Pole-N)": 71.0,
+        "DAC_0_4_(Pole-S)": 41.0,
+        "DAC_1_0_(Flata-Pole)": -3.0,
+        "Electron Energy Set": 118.83,
+        "Extraction Focus Set": 1.0,
+        "Extraction Lens Set": 49.1334706959707,
+        "Extraction Symmetry Set": 0.0244200244200244,
+        "HV": 9.9,
+        "Horizontal Symmetry Set": 0.0,
+        "Ion Repeller Set": -6.0,
+        "RotationQuad": 6.0,
+        "Trap Current Readback": 203.517487639626,
+        "Trap Voltage Readback": 38.5948849417079,
+        "Y-Symmetry Set": 35.6776556776557,
+        "Z-Focus Set": 0.0,
+        "Z-Symmetry Set": 0.0244200244200244
+    }
+}
