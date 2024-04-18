@@ -1,0 +1,37 @@
+{
+    "beam_diameter": "",
+    "cleanup_duration": 30.0,
+    "commit": "542f909fe47ab20e69cf7a9acca9fb47889e50d6",
+    "cryo_temperature": 0.0,
+    "extract_device": "Fusions Diode",
+    "extract_duration": 120.0,
+    "extract_units": "watts",
+    "extract_value": 1.0,
+    "extraction_context": {},
+    "grain_polygons": [],
+    "light_value": 0,
+    "load_holder": "16hole",
+    "load_name": "D0187",
+    "pattern": "16holeTrough_small-holes1-3and5-6and8-9and11-12and14-16.lp",
+    "pipette_counts": [],
+    "positions": [
+        {
+            "is_degas": false,
+            "position": 3,
+            "x": -17.677,
+            "y": 11.189,
+            "z": 15.0
+        }
+    ],
+    "post_cleanup_duration": 0.0,
+    "pre_cleanup_duration": 0.0,
+    "ramp_duration": 0.0,
+    "ramp_rate": 0.0,
+    "snapshots": [],
+    "timestamp": "2024-04-17T23:23:01.865655",
+    "tray": "16hole",
+    "videos": [
+        "SMB://agustin.nmbgmr.nmt.edu/argon/FusionsDiode/D0187/71560-01A-001.avi"
+    ],
+    "weight": 23.7
+}
